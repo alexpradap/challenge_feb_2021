@@ -1,0 +1,27 @@
+{
+  "name": "challenge_feb_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpradap/challenge_feb_2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexpradap/challenge_feb_2021/issues"
+  },
+  "homepage": "https://github.com/alexpradap/challenge_feb_2021#readme",
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "cucumber-html-reporter": "^5.3.0",
+    "puppeteer": "^7.1.0"
+  }
+}

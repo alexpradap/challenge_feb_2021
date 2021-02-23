@@ -1,0 +1,256 @@
+[
+  {
+    "description": " Búsqueda y reserva de vuelos en el sitio web de Avianca",
+    "elements": [
+      {
+        "description": "",
+        "id": "avianca;reserva-de-un-vuelo",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Reserva de un vuelo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in the avianca website",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the origin city",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select the destination city",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I select my departure date",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I select my return date",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on search for flights",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I accept the notification pop-up",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see a list of available flights",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "avianca;buscar-vuelos",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Buscar vuelos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am in the avianca website",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click on the menu button",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Select Horarios de vuelo",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Select origin Bogota",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Select destination Cartagena",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Select a departure date",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Select a return date",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Click on Search button",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should be able to sort the flights from latest to earliest",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "avianca",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Avianca",
+    "tags": [],
+    "uri": "features/avianca.feature"
+  }
+]
