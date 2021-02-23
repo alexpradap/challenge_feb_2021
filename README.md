@@ -5,7 +5,7 @@ En este ejercicio se implementa la respuesta a los siguientes puntos del challen
   * En la página principal, reserva un vuelo Bogotá - Miami ida y vuelta con fecha de regreso en mes distinto al mes de ida
   * En la página principal, ir al menú desplegable de la parte superior derecha (tres líneas horizontales), en la sección “Antes de tu viaje”, seleccionar “Horarios de vuelo”, buscar vuelos de Bogotá a Cartagena (no importan las fechas de ida y regreso que selecciones), y organizar los resultados por fecha de salida, vuelos que salen más tarde primero.
 
-## Descripción de la Solición
+## Descripción de la Solución
 
 Para la implementación de esta solución se utilizaron los siguientes componentes:
 * NodeJS
