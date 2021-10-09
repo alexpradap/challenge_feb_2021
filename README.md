@@ -28,3 +28,5 @@ Para la implementación de esta solución se utilizaron los siguientes component
 2. Ejecutar Cucumber HTML Reporter:
 `node report.js`
 3. El reporte y el archivo de resultados .json se encuentran en el directorio `report/`
+
+Changes in master: lorem ipsum dolor sit amet
